@@ -6,13 +6,31 @@
 
 body{
     font-family: monospace;
-    background-color: black;
-    color: #00ff00;
    
 }
 
-hr{
-    height: 1px;
-    background-color: #00ff00;
-    border: 0px;
+.grupoComandos{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+    flex-direction: row;
+    gap: 8px;
 }
+
+.cartaoComando{
+    width: calc(25% - 15px);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 5px;
+    transition: 150ms;
+    background-color: rgb(5, 212, 212);
+}
+
+.cartaoComando:hover{
+    scale: 101.5%;
+    background-color: rgb(37, 179, 179);
+    transform: translateY(-5%);
+
+}
+
+
