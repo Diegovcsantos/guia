@@ -4,33 +4,66 @@
 
 }
 
+header{
+    height: 8vh;
+    background-color: rgb(130, 186, 110);
+}
+
 body{
     font-family: monospace;
+    font-size: large;
    
+   
+}
+
+main{
+    height: 85vh;
+     background-color: rgb(7, 163, 129);
+     background: linear-gradient(to right, red ,blue  );
+     display: flex;
+     flex-direction: column;
+     margin-block: auto;
+     justify-content: center;
+     align-items: center;
 }
 
 .grupoComandos{
     display: flex;
     justify-content: space-between;
-    margin-inline: 15px;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 8px;
+    text-align: center;
 }
 
 .cartaoComando{
-    width: calc(25% - 15px);
+    width: calc(25% - 40px);
     border: 1px solid black;
     border-radius: 15px;
     padding: 10px 5px;
     transition: 150ms;
-    background-color: rgb(5, 212, 212);
+    background-color: rgb(8, 225, 225); 
+    color: rgb(24, 66, 205);
+   
+  
 }
 
 .cartaoComando:hover{
     scale: 101.5%;
-    background-color: rgb(37, 179, 179);
+    background-color: rgb(49, 243, 243);
     transform: translateY(-5%);
+    color: rgb(111, 98, 183);
+   
+    
 
 }
+
+footer{
+    height: 7vh;
+    background-color: rgb(130, 186, 110);
+
+}
+
+
 
 
