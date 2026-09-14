@@ -13,6 +13,10 @@ body{
     
 }
 
+header{
+    
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -32,14 +36,15 @@ main{
     height: 20vh;
     background-color: rgb(30, 42, 48);
     color: rgb(107, 176, 153);
-    padding: 5px;
+    padding: 10px;
     letter-spacing: 2px;
+    
    
   
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .grupoComandos{
         flex-direction: row;
         flex-wrap: wrap;
@@ -72,6 +77,7 @@ footer{
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
   
     
 }
@@ -83,3 +89,37 @@ h2{
 
 }
 
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .grupoComandos{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+   .cartaoComando{
+    width: calc(100vw - 30px);
+   }
+
+}
+
+@media only screen and (min-width: 992px){
+   body{
+    font-size: x-large;
+  
+   }
+}
+
+@media only screen and (min-width: 1200px){
+   .cartaoComando{
+    width: calc(25% - 15px);
+    min-height: fit-content; 
+    font-size: large;
+    
+   }
+}
