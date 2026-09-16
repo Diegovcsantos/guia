@@ -9,12 +9,12 @@ body{
   color: rgb(194, 209, 209);    background-color: rgb(104, 124, 126) ;
     font-family: monospace;
     font-size: large;
-    margin: 25px;
+    
     
 }
 
 header{
-    
+    background-color: rgb(53, 87, 77);
 }
 
 main{
@@ -27,6 +27,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin: 25px;
 }
 
 .cartaoComando{
@@ -38,6 +39,10 @@ main{
     color: rgb(107, 176, 153);
     padding: 10px;
     letter-spacing: 2px;
+    
+    
+    
+    
     
    
   
@@ -64,6 +69,7 @@ main{
     color:white;   
     border: 3px solid rgb(1, 227, 248);
     box-shadow: 3px 3px 10px rgb(143, 224, 238);
+    text-shadow: 3px 3px rgb(63, 62, 62);
 
 }
 }
@@ -77,6 +83,8 @@ footer{
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(126, 162, 154);
+    text-shadow: 3px 4px rgb(49, 62, 59);    
     
   
     
@@ -85,7 +93,9 @@ h1{
 h2{
     text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          text-decoration: overline;
+        text-decoration: overline;
+        color: rgb(121, 154, 150);
+         text-shadow: 3px 4px rgb(49, 62, 59);
 
 }
 
@@ -93,6 +103,8 @@ h2{
   body{
     font-size: x-large;
   }
+ 
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -120,6 +132,19 @@ h2{
     width: calc(25% - 15px);
     min-height: fit-content; 
     font-size: large;
-    
    }
+  
+}
+
+.icone{
+    fill: rgb(193, 159, 6);
+    stroke: rgb(183, 179, 179);
+    stroke-width: 10px;
+    width: 50px;
+    height: 40px;
+    
+    
+
+    
+   
 }
